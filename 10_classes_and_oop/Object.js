@@ -21,6 +21,7 @@ createUser.prototype.printMe = function(){
     console.log(`price is ${this.score}`);
 }
 
+// by using new keyword we are explicility saying that i have printMe, increment additional properties
 const chai = new createUser("chai", 25)
 const tea = createUser("tea", 250)
 
